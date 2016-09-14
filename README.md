@@ -18,5 +18,5 @@ ipython
 %run setup_broker.py
 
 # Try examples, such as:
-db(prposal_id=1)
+db(proposal_id=1)
 ```
