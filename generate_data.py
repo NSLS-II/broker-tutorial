@@ -1,5 +1,5 @@
 import matplotlib
-matplotlib.use('qt5agg')
+matplotlib.use('qt4agg')
 import tempfile
 import os
 import tzlocal
