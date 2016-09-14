@@ -1,19 +1,22 @@
 import matplotlib
 matplotlib.use('qt5agg')
+import tempfile
 import os
+import tzlocal
 from bluesky import RunEngine
 from bluesky.plans import scan, count, relative_scan
 from bluesky.examples import det, motor, det1, det2, motor1, motor2, flyer1
 
 
-def make_broker(directory='storage'):
+def make_broker():
     from portable_mds.sqlite.mds import MDS
     from portable_fs.sqlite.fs import FileStore
     from databroker import Broker
 
-    os.makedirs(directory, exist_ok=True)
-    mds = MDS({'directory': directory, 'timezone': 'US/Eastern'})
-    fs = FileStore({'dbpath': os.path.join(directory, 'filestore.db')})
+    tempdirname = tempfile.mkdtemp()
+    mds = MDS({'directory': tempdirname,
+               'timezone': tzlocal.get_localzone().zone})
+    fs = FileStore({'dbpath': os.path.join(tempdirname, 'filestore.db')})
     return Broker(mds, fs)
 
 
