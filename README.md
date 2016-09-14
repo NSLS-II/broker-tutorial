@@ -14,9 +14,11 @@ pip install -r requirements.txt
 # Start IPython
 ipython
 
-# In IPython, run a script that defines a Broker instance, db.
-%run setup_broker.py
+# In IPython, run a script that generates data and defines a Broker, db.
+%run generate_data.py
 
 # Try examples, such as:
 db(proposal_id=1)
+all_scans = db(plan_name='scan')
+db.get_table(all_scans)
 ```
