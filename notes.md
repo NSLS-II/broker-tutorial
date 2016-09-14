@@ -1,6 +1,7 @@
 # Notes
 
-This is a brief list of examples. See the documentation for details.
+This is a brief list of examples. See the
+[documentation](https://nsls-ii.github.io/databroker) for details.
 
 ```python
 # most recent

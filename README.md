@@ -1,5 +1,7 @@
 # Data Broker Tutorial Materials
 
+[Documentation](https://nsls-ii.github.io/databroker)
+
 ## Usage
 
 ```
