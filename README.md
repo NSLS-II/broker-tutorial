@@ -8,7 +8,8 @@ git clone https://github.com/NSLS-II/broker-tutorial
 
 # Create a new "conda environment" and install the required Python packages.
 cd broker-tutorial
-conda create -n SOME_ENVIRONMENT_NAME python=3.5 numpy pandas matplotlib
+conda create -n broker-tutorial python=3.5 numpy pandas matplotlib
+source activate broker-tutorial
 pip install -r requirements.txt
 
 # Start IPython
