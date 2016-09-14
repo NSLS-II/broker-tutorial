@@ -1,0 +1,17 @@
+cytoolz
+tifffile
+mongoquery
+requests
+boltons
+tzlocal
+pandas
+pims
+ipython
+git+https://github.com/NSLS-II/event-model#egg=event_model
+git+https://github.com/NSLS-II/portable-mds#egg=portable_mds
+git+https://github.com/NSLS-II/portable-fs#egg=portable_fs
+git+https://github.com/NSLS-II/databroker#egg=databroker
+git+https://github.com/NSLS-II/bluesky#egg=bluesky
+git+https://github.com/NSLS-II/doct#egg=doct
+git+https://github.com/NSLS-II/metadatastore#egg=metadatastore
+git+https://github.com/NSLS-II/filestore#egg=filestore
