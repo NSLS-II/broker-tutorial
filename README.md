@@ -2,6 +2,11 @@
 
 [Documentation](https://nsls-ii.github.io/databroker)
 
+## Before you begin
+
+* [Install conda](http://conda.pydata.org/miniconda.html)
+* [Install git](https://help.github.com/articles/set-up-git/)
+
 ## Usage
 
 ```
