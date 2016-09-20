@@ -15,7 +15,7 @@ git clone https://github.com/NSLS-II/broker-tutorial
 
 # Create a new "conda environment" and install the required Python packages.
 cd broker-tutorial
-conda create -n broker-tutorial python=3.5 numpy pandas matplotlib cytoolz tifffile pandas
+conda create -n broker-tutorial python=3.5 numpy pandas matplotlib cytoolz tifffile -c conda-forge
 source activate broker-tutorial
 pip install -r requirements.txt
 
