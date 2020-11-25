@@ -1,3 +1,7 @@
+# ARCHIVED AND OUT OF DATE
+
+See https://blueskyproject.io/tutorials/ instead.
+
 # Data Broker Tutorial Materials
 
 [Documentation](https://nsls-ii.github.io/databroker)
